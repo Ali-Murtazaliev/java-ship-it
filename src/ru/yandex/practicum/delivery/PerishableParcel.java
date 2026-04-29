@@ -1,5 +1,6 @@
 public class PerishableParcel extends Parcel {
     private int timeToLive;
+    static final int PERISHABLE_PARCEL_PRICE = 3;
 
     public int getTimeToLive() {
         return timeToLive;

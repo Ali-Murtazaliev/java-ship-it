@@ -5,9 +5,6 @@ public abstract class Parcel {
     private int weight;
     private String deliveryAddress;
     private int sendDay;
-    static final int STANDARD_PARCEL_PRICE = 2;
-    static final int PERISHABLE_PARCEL_PRICE = 3;
-    static final int FRAGILE_PARCEL_PRICE = 4;
 
 
     public Parcel(String description, int weight, String deliveryAddress, int sendDay) {
